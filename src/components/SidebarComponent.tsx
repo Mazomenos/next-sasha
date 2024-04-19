@@ -25,6 +25,11 @@ const links:Link[] = [
                children: [] 
             },
             {
+                name: "Santiago",
+                path: "/modalUpload",
+                children: [] 
+            },
+            {
                 name: "Partnerships",
                 path: "/partnerships",
                 children: []
@@ -37,6 +42,11 @@ const links:Link[] = [
              {
                 name: "C",
                 path: "/new-product",
+                children: [] 
+             },
+             {
+                name: "Angel",
+                path: "/partnershipsedi",
                 children: [] 
              },
         ]
