@@ -34,6 +34,11 @@ const links:Link[] = [
                 path: "/new-product",
                 children: [] 
              },
+             {
+                name: "Angel",
+                path: "/partnershipsedi",
+                children: [] 
+             },
         ]
     },
     {
