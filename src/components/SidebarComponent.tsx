@@ -25,6 +25,11 @@ const links:Link[] = [
                children: [] 
             },
             {
+                name: "Santiago",
+                path: "/modalUpload",
+                children: [] 
+            },
+            {
                 name: "B",
                 path: "/new-product",
                 children: [] 
