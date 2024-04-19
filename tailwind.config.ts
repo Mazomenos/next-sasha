@@ -9,6 +9,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        cgrey: "#F6F6F6",
+        chgrey: "#EAEAEA",
+        badgeGreen: "#D3EBC4",
+        badgeYellow: "#FFF1CC",
+        badgeRed: "#F0BEBE"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

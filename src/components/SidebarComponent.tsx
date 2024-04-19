@@ -30,6 +30,11 @@ const links:Link[] = [
                 children: [] 
             },
             {
+                name: "Partnerships",
+                path: "/partnerships",
+                children: []
+            },
+            {
                 name: "B",
                 path: "/new-product",
                 children: [] 
