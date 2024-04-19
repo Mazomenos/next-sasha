@@ -16,6 +16,27 @@ export type Link = {
 
 const links:Link[] = [
     {
+        name: "Tarea",
+        path: "#",
+        children: [
+            {
+               name: "Gustavo",
+               path: "/modalG",
+               children: [] 
+            },
+            {
+                name: "B",
+                path: "/new-product",
+                children: [] 
+             },
+             {
+                name: "C",
+                path: "/new-product",
+                children: [] 
+             },
+        ]
+    },
+    {
         name: "Products",
         path: "#",
         children: [
@@ -23,22 +44,17 @@ const links:Link[] = [
                name: "New Products",
                path: "/new-product",
                children: [] 
-            },
-            {
-                name: "Old Products",
-                path: "/screen",
-                children: [] 
-             }
+            }
         ]
     },
     {
         name: "Orders",
-        path: "#",
+        path: "/orders",
         children: []
     },
     {
         name: "Providers",
-        path: "#",
+        path: "/providers",
         children: []
     },
 ]
@@ -58,12 +74,12 @@ export default function Sidebar(){
             return(
             
             <>
-            <button onClick={() => {setIsOpen((prev => !prev)); router.push(link.path)}} className="flex flex-row items-center p-1 rounded-lg hover:bg-indigo-900">
+            <button onClick={() => {setIsOpen((prev => !prev)); router.push(link.path)}} className="flex flex-row justify-between items-center p-1 rounded-lg hover:bg-indigo-900">
                 {link.name}
                 {link.children.length !== 0 && (
                     
                     !IsOpen ? (
-                        <AiOutlineCaretDown/>
+                        <AiOutlineCaretDown className=""/>
                     ) : (
                         <AiOutlineCaretUp/>
                     )
