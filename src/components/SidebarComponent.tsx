@@ -118,7 +118,7 @@ export default function Sidebar(){
             <Image className="" src="/logo_flex.svg" width={200} height={200} alt="hola"></Image>
             </div>
             <hr className="w-48 h-px   bg-gray-100 border-0 rounded dark:bg-gray-700"/>
-            <nav className="text-left px-3 py-3 flex flex-col w-full">
+            <nav className="text-left px-3 py-3 flex flex-col w-full text-white">
                 {RenderLinks(links,0)}
             </nav>
           
