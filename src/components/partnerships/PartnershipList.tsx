@@ -17,7 +17,7 @@ export default function PartnershipList() {
     ];
 
     return (
-        <ul className=" w-full grid justify-items-center align-middle mx-auto">
+        <ul className=" w-full grid justify-items-center align-middle mx-auto px-6">
             {partnerships.map((p) => (
                 <Partnership key={p.id} partner_item={p} />
             ))}
