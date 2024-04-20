@@ -35,8 +35,8 @@ const links:Link[] = [
                 children: []
             },
             {
-                name: "B",
-                path: "/new-product",
+                name: "Alexia",
+                path: "/partners",
                 children: [] 
              },
              {
