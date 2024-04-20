@@ -9,7 +9,7 @@ export default function screenLayout({
     return (
       <div className="bg-blue-300 flex flex-row h-screen">
         <Sidebar></Sidebar>
-        <div className=" flex flex-col w-full">
+        <div className=" flex flex-col min-h-screen w-full">
             <Header></Header>
         
             {children}
