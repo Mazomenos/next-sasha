@@ -12,8 +12,8 @@ export default function Screen() {
     const Partners: string[] = ["Amazon", "TP Link", "Walmart",]
 
     return (
-        <main className="bg-slate-700 mr-2 mb-2 rounded-lg flex-1 flex justify-center items-center ">
-            <button onClick={() => setOpenModal((prev => !prev))} className="bg-black rounded-lg text-white drop-shadow-md font-bold text-md px-8 py-1 hover:bg-white hover:text-black" >
+        <main className="bg-white mr-2 mb-2 rounded-lg flex-1 flex justify-center items-center ">
+            <button onClick={() => setOpenModal((prev => !prev))} className="bg-black rounded-lg text-white drop-shadow-md font-bold text-md px-8 py-1 hover:bg-white hover:text-black hover:border-black border hover:border-solid">
                 Abrir Modal
             </button>
             {OpenModal && (
